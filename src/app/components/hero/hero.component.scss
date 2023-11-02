@@ -1,0 +1,39 @@
+h1{
+    font-weight:bold;
+    font-size: 3rem;
+    font-family:'Poppins';
+    overflow-wrap: break-word;
+    margin-bottom: 10px; 
+    width: 12ch;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 100px;
+    h3{
+        font-size: 1.25rem;
+        font-family: 'Poppins';
+        color: rgb(0,0,0,46%);
+        margin-top:34px;
+        margin-bottom:34px;
+    }
+    button{
+        border: none;
+        border-radius: 10px;
+        background-color: #682C0E;
+        color: #fff;
+        width: 200px;
+        height: 44px;
+        font-family: 'Poppins';
+        font-size: 1.25rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

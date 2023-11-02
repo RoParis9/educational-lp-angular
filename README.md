@@ -1,27 +1,43 @@
-# EducationalLp
+# Simple Landing Page with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+This is a simple landing page project created with Angular, primarily using HTML and CSS.
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project serves as a basic template for a landing page that can be easily customized to fit your specific needs. It's built with Angular, a popular JavaScript framework, and includes the following features:
 
-## Code scaffolding
+- Responsive design for mobile and desktop.
+- A clean and minimalistic user interface.
+- HTML and CSS files for easy customization.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+Before you start working with this project, ensure you have the following prerequisites installed:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js and npm: You can download and install them from [https://nodejs.org/](https://nodejs.org/).
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the repository to your local machine:**
 
-## Running end-to-end tests
+   ```bash
+   git clone <repository_url>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Navigate to the project directory**
 
-## Further help
+   ```bash
+   cd <repository>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Install project dependencies**
+
+   ```bash
+   npm install
+
+4. **Start development server**
+
+   ```bash
+   npm run start
+   ```
+This command will build and serve the Angular application. You'll see output in the terminal, and once the server is running, you can access the landing page in your web browser at http://localhost:4200.
+
+
